@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# TensorFlow/Keras
+*.h5
+*.hdf5
+*.pb
+*.ckpt*
+*.index
+*.meta
+*.data*
+checkpoint
+events.out.tfevents.*
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+training_history.png
+class_names.json
+disease_remedies.json
+
+# Exceptions
+!workflow_diagram.png
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+logs/
+*.log
